@@ -6,10 +6,10 @@ Sistema de catalogação e identificação inteligente de espécies botânicas d
 
 > _Substitua os links abaixo pelos prints do seu terminal rodando o projeto._
 
-|                 Menu Principal                  |                   Identificação com IA                    |
-| :---------------------------------------------: | :-------------------------------------------------------: |
-| ![Menu do Sistema](https://imgbox.com/PRkQkJXN) | ![Resposta do Gemini](https://seu-link-para-imagem-2.com) |
-|            _Exemplo da tela inicial_            |         _Exemplo da IA identificando uma planta_          |
+|                 Menu Principal                  |                Identificação com IA                |
+| :---------------------------------------------: | :------------------------------------------------: |
+| ![Menu do Sistema](https://imgbox.com/PRkQkJXN) | ![Resposta do Gemini](https://imgbox.com/u9cDspM7) |
+|            _Exemplo da tela inicial_            |      _Exemplo da IA identificando uma planta_      |
 
 ---
 
