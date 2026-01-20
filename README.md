@@ -12,8 +12,6 @@ _(Exemplo da tela inicial com as opções do sistema)_
 ![Resposta do Gemini](https://images2.imgbox.com/f0/ff/u9cDspM7_o.png)
 _(Exemplo do Botânico Virtual analisando e dando dicas)_
 
-> **⚠️ Nota:** Se as imagens não aparecerem, certifique-se de pegar o **Link Direto** (que termina em `.png` ou `.jpg`) no site de hospedagem, e não o link da página de visualização.
-
 ---
 
 ## 🚀 Tecnologias Utilizadas
