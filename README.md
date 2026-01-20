@@ -2,16 +2,21 @@
 
 Sistema de catalogação e identificação inteligente de espécies botânicas do bioma Caatinga. Este projeto utiliza Programação Orientada a Objetos (POO) e Inteligência Artificial (Google Gemini) para auxiliar na identificação de plantas a partir de descrições em linguagem natural.
 
-## � Demonstração Visual
+## 📸 Demonstração Visual
 
-|                 Menu Principal                  |                Identificação com IA                |
-| :---------------------------------------------: | :------------------------------------------------: |
-| ![Menu do Sistema](https://imgbox.com/PRkQkJXN) | ![Resposta do Gemini](https://imgbox.com/u9cDspM7) |
-|            _Exemplo da tela inicial_            |      _Exemplo da IA identificando uma planta_      |
+**1. Menu Principal:**
+![Menu do Sistema](https://imgbox.com/PRkQkJXN)
+_(Exemplo da tela inicial com as opções do sistema)_
+
+**2. Identificação com IA:**
+![Resposta do Gemini](https://imgbox.com/u9cDspM7)
+_(Exemplo do Botânico Virtual analisando e dando dicas)_
+
+> **⚠️ Nota:** Se as imagens não aparecerem, certifique-se de pegar o **Link Direto** (que termina em `.png` ou `.jpg`) no site de hospedagem, e não o link da página de visualização.
 
 ---
 
-## �🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 - **Linguagem**: Python 3.13+
 - **Gerenciamento de Dependências**: [Poetry](https://python-poetry.org/)
