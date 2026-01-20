@@ -4,13 +4,17 @@ Sistema de catalogação e identificação inteligente de espécies botânicas d
 
 ## 📸 Demonstração Visual
 
-**1. Menu Principal:**
-![Menu do Sistema](https://images2.imgbox.com/63/56/PRkQkJXN_o.png)
-_(Exemplo da tela inicial com as opções do sistema)_
+<div align="center">
 
-**2. Identificação com IA:**
-![Resposta do Gemini](https://images2.imgbox.com/f0/ff/u9cDspM7_o.png)
-_(Exemplo do Botânico Virtual analisando e dando dicas)_
+<h3>1. Menu Principal</h3>
+<img src="https://images2.imgbox.com/63/56/PRkQkJXN_o.png" width="600px">
+<p><em>(Exemplo da tela inicial com as opções do sistema)</em></p>
+
+<h3>2. Identificação com IA</h3>
+<img src="https://images2.imgbox.com/f0/ff/u9cDspM7_o.png" width="600px">
+<p><em>(Exemplo do Botânico Virtual analisando e dando dicas)</em></p>
+
+</div>
 
 ---
 
