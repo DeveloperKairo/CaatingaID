@@ -3,25 +3,18 @@ import sys
 import time
 from pathlib import Path
 
-# --- GARANTE QUE O PYTHON ACHE O PROJETO ---
-# Adiciona a pasta 'src' ao caminho do Python
 caminho_src = Path(__file__).resolve().parent.parent
 sys.path.append(str(caminho_src))
 
-# --- IMPORTS CORRIGIDOS (Baseados no seu Print) ---
-# Note a mudança: de 'dominio' para 'classes'
 from caatingaid.classes.angiosperma import Angiosperma
 from caatingaid.classes.gimnosperma import Gimnosperma
 from caatingaid.classes.pteridofita import Pteridofita
 from caatingaid.classes.briofita import Briofita
 
-# Note a mudança: de 'infraestrutura' para 'crud'
 from caatingaid.crud.crud import CrudPlantas
 
-# Mantemos services, pois no print a pasta se chama services
 from caatingaid.services.gemini_api import BotanicoAI
 
-# --- CORES E VISUAL ---
 class Cores:
     VERDE = '\033[92m'
     AMARELO = '\033[93m'
@@ -44,7 +37,7 @@ def cabecalho():
 \____/\__,_/\__,_/\__/_/_/ /_/\__, /\__,_/___/_____/  
                              /____/                   
     """)
-    print(f"   🌵 SISTEMA CAATINGAID - ESTRUTURA CORRIGIDA{Cores.RESET}")
+    print(f"   🌵 SISTEMA CAATINGAID    {Cores.RESET}")
     print(f"{Cores.VERDE}   --------------------------------------------------{Cores.RESET}\n")
 
 # --- MENUS ---
