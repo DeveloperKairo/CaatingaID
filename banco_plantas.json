@@ -1,0 +1,98 @@
+[
+  {
+    "tipo": "Angiosperma",
+    "cientifico": "Ziziphus joazeiro",
+    "popular": "Juazeiro",
+    "habitat": "Caatinga",
+    "biometria": {
+      "altura_media_metros": 8.0,
+      "folhagem": "Perene"
+    },
+    "detalhes_especificos": "Árvore de copa Ampla Arredondada Densa, com flores Esverdeada e frutos do tipo Drupa.",
+    "caracteristicas_especificas": {
+      "tipo_fruto": "Drupa (Pequena e amarela)",
+      "cor_flor": "Esverdeada/Amarela pequena",
+      "forma_copa": "Ampla Arredondada Densa"
+    }
+  },
+  {
+    "tipo": "Angiosperma",
+    "cientifico": "Cereus jamacaru",
+    "popular": "Mandacaru",
+    "habitat": "Caatinga",
+    "biometria": {
+      "altura_media_metros": 6.0,
+      "folhagem": "Ausente (Espinhos)"
+    },
+    "detalhes_especificos": "Cacto colunar ereto, ramificado como um candelabro, com espinhos e sem folhas. Flores brancas grandes noturnas.",
+    "caracteristicas_especificas": {
+      "tipo_fruto": "Baga (Rosa/Vermelha ovóide)",
+      "cor_flor": "Branca (Grande e Noturna)",
+      "forma_copa": "Colunar (Formato de Candelabro)"
+    }
+  },
+  {
+    "tipo": "Angiosperma",
+    "cientifico": "Copernicia prunifera",
+    "popular": "Carnaúba",
+    "habitat": "Várzeas de rios",
+    "biometria": {
+      "altura_media_metros": 12.0,
+      "folhagem": "Perene"
+    },
+    "detalhes_especificos": "Palmeira alta com tronco recoberto por restos de folhas em espiral. Folhas grandes em forma de leque com cera.",
+    "caracteristicas_especificas": {
+      "tipo_fruto": "Drupa (Preta/Ovóide)",
+      "cor_flor": "Amarela (Cachos longos)",
+      "forma_copa": "Globosa (Coroa de folhas em leque)"
+    }
+  },
+  {
+    "tipo": "Angiosperma",
+    "cientifico": "Erythrina velutina",
+    "popular": "Mulungu",
+    "habitat": "Caatinga e Serras",
+    "biometria": {
+      "altura_media_metros": 10.0,
+      "folhagem": "Caducifólia (Cai na seca)"
+    },
+    "detalhes_especificos": "Árvore de tronco liso e acinzentado com espinhos grossos. Na seca fica totalmente sem folhas e coberta de flores vermelhas.",
+    "caracteristicas_especificas": {
+      "tipo_fruto": "Vagem (Legume)",
+      "cor_flor": "Vermelha alaranjada intensa",
+      "forma_copa": "Aberta e Irregular"
+    }
+  },
+  {
+    "tipo": "Angiosperma",
+    "cientifico": "Anacardium occidentale",
+    "popular": "Cajueiro",
+    "habitat": "Litoral e Caatinga",
+    "biometria": {
+      "altura_media_metros": 6.0,
+      "folhagem": "Perene (Copa larga)"
+    },
+    "detalhes_especificos": "Árvore de copa muito larga e galhos tortuosos que tocam o chão. Folhas ovais duras. Fruto é a castanha, sustentada pelo pedúnculo carnoso (caju).",
+    "caracteristicas_especificas": {
+      "tipo_fruto": "Noz/Castanha (Pedúnculo Vermelho/Amarelo)",
+      "cor_flor": "Rosa pálido / Creme",
+      "forma_copa": "Muito larga e esparramada"
+    }
+  },
+  {
+    "tipo": "Angiosperma",
+    "cientifico": "Spondias tuberosa",
+    "popular": "Umbuzeiro",
+    "habitat": "Caatinga",
+    "biometria": {
+      "altura_media_metros": 5.0,
+      "folhagem": "Caducifólia"
+    },
+    "detalhes_especificos": "Árvore de copa baixa e muito larga (umbela). Raízes formam batatas (túberas) que armazenam água. Fruto verde arredondado.",
+    "caracteristicas_especificas": {
+      "tipo_fruto": "Drupa (Umbu)",
+      "cor_flor": "Branca pequena perfumada",
+      "forma_copa": "Guarda-chuva (Umbela cheia)"
+    }
+  }
+]

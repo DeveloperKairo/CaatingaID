@@ -1,7 +1,55 @@
+# Python
 __pycache__/
 *.py[cod]
-.venv/
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.env
+.venv
 env/
 venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
 .vscode/
-.env
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# System
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary/Debug Files (Scripts criados durante sessao de debug)
+check_models.py
+test_connection.py
+models_output.txt
+models_output_utf8.txt
