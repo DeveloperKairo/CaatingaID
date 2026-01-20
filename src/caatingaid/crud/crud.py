@@ -2,7 +2,6 @@ import json
 import os
 from pathlib import Path
 
-# Imports das classes (ajustados para sua estrutura 'classes')
 from caatingaid.classes.angiosperma import Angiosperma
 from caatingaid.classes.gimnosperma import Gimnosperma
 from caatingaid.classes.pteridofita import Pteridofita
@@ -10,18 +9,14 @@ from caatingaid.classes.briofita import Briofita
 
 class CrudPlantas:
     def __init__(self, nome_arquivo="banco_plantas.json"):
-        # --- FIXANDO O CAMINHO NA RAIZ ---
-        # 1. Pega a pasta onde este arquivo (crud.py) está
+
         pasta_atual = Path(__file__).resolve().parent
         
-        # 2. Sobe 3 níveis para chegar na raiz do projeto (crud > caatingaid > src > RAIZ)
         pasta_raiz = pasta_atual.parent.parent.parent
         
-        # 3. Define o caminho final do arquivo
         self.arquivo_db = pasta_raiz / nome_arquivo
         
         print(f"📂 Banco de dados localizado em: {self.arquivo_db}")
-        # ---------------------------------
 
         self._plantas = []
         self._carregar_dados()
@@ -56,10 +51,9 @@ class CrudPlantas:
             with open(self.arquivo_db, 'w', encoding='utf-8') as f:
                 json.dump(dados_para_salvar, f, ensure_ascii=False, indent=4)
         except Exception as e:
-            print(f"❌ Erro ao salvar arquivo: {e}")
+            print(f" Erro ao salvar arquivo: {e}")
 
     def _carregar_dados(self):
-        # Verifica se o arquivo existe usando pathlib
         if not self.arquivo_db.exists():
             return
     
@@ -73,15 +67,14 @@ class CrudPlantas:
             
             # Debug para você ver carregando
             if self._plantas:
-                print(f"📥 Carregadas {len(self._plantas)} plantas do arquivo.")
+                print(f" Carregadas {len(self._plantas)} plantas do arquivo.")
 
         except json.JSONDecodeError:
-            print("⚠️ Arquivo de banco de dados corrompido ou vazio. Iniciando novo.")
+            print("Arquivo de banco de dados corrompido ou vazio. Iniciando novo.")
         except Exception as e:
-            print(f"⚠️ Erro ao ler banco: {e}")
+            print(f"Erro ao ler banco: {e}")
 
     def _reconstruir_objeto(self, item_dict):
-        # Ajustado para bater com as chaves geradas em Planta.to_dict() e bando_plantas.json
         tipo = item_dict.get("tipo")
         bio = item_dict.get("biometria", {})
         especifico = item_dict.get("caracteristicas_especificas", {})
@@ -132,8 +125,7 @@ class CrudPlantas:
                 )
             
             if nova_planta:
-                # Se tiver detalhes específicos salvos como string (legado), não temos setter, mas ok
                 self._plantas.append(nova_planta)
 
         except KeyError as e:
-            print(f"❌ Erro ao reconstruir {item_dict.get('popular')}: Faltando campo {e}")
+            print(f" Erro ao reconstruir {item_dict.get('popular')}: Faltando campo {e}")
