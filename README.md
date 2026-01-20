@@ -22,7 +22,7 @@ Sistema de catalogação e identificação inteligente de espécies botânicas d
 
 - **Linguagem**: Python 3.13+
 - **Gerenciamento de Dependências**: [Poetry](https://python-poetry.org/)
-- **Inteligência Artificial**: Google Gemini 1.5 Flash (via `google-generativeai`)
+- **Inteligência Artificial**: Google Gemini 2.5 Flash (via `google-generativeai`)
 - **Persistência**: JSON (Armazenamento local em arquivo)
 - **Variáveis de Ambiente**: `python-dotenv`
 
