@@ -16,6 +16,32 @@ Sistema de catalogação e identificação inteligente de espécies botânicas d
 
 </div>
 
+</div>
+
+---
+
+## 📊 Diagrama de Classes
+
+<div align="center">
+<img src="https://images2.imgbox.com/c7/e3/6VV5v5Ma_o.png" width="700px">
+<p><em>(Representação da arquitetura orientada a objetos do sistema)</em></p>
+</div>
+
+---
+
+## 📂 Estrutura do Projeto
+
+O projeto segue uma arquitetura modular organizada para facilitar a manutenção e escalabilidade:
+
+- **`src/caatingaid/`**: Diretório principal do código fonte.
+  - **`classes/`**: Núcleo do domínio (POO). Contém a classe mãe `Planta` e suas especializações (`Angiosperma`, `Gimnosperma`, etc.).
+  - **`crud/`**: Camada de persistência. O `CrudPlantas` gerencia a leitura e escrita no arquivo JSON.
+  - **`services/`**: Serviços externos. Aqui reside o `BotanicoAI`, que conecta o sistema ao Google Gemini.
+  - **`main.py`**: O arquivo principal que gerencia o menu e o fluxo de interação com o usuário.
+- **`banco_plantas.json`**: "Banco de dados" local onde o inventário é persistido.
+- **`UML.png`**: Diagrama de classes do sistema.
+- **`.env`**: (Não versionado) Arquivo de configuração onde fica sua `GOOGLE_API_KEY`.
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
